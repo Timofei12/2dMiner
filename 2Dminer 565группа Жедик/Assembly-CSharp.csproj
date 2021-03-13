@@ -61,11 +61,12 @@
      <Compile Include="Assets\Scripts\Goal.cs" />
      <Compile Include="Assets\Scripts\Hazard.cs" />
      <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Scripts\NewBehaviourScript1.cs" />
+     <Compile Include="Assets\Scripts\NewLevel.cs" />
      <Compile Include="Assets\Scripts\PLAY.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
      <Compile Include="Assets\Scripts\RotationScript.cs" />
-     <Compile Include="Assets\Scripts\ShootingTrap.cs" />
      <Compile Include="Assets\Scripts\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
      <Compile Include="Assets\Scripts\Tiles\Pipeline Tile\Scripts\PipelineTile.cs" />
      <Compile Include="Assets\Scripts\Tiles\Random Tile\Scripts\RandomTile.cs" />
@@ -74,43 +75,43 @@
      <None Include="Assets\Sprites\roguelike-cave-pack\License.txt" />
      <None Include="Assets\Sprites\roguelike-cave-pack\spritesheetInfo.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Cinemachine">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.Tilemap.Editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
  </Reference>
  <Reference Include="com.unity.cinemachine.editor">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/SchoolIT/Documents/unity/2Dminer 565группа Жедик/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/User/Documents/GitHub/2dMiner/2Dminer 565группа Жедик/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
