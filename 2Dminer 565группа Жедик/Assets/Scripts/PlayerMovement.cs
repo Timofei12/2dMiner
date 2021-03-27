@@ -1,4 +1,6 @@
-﻿/*
+﻿
+
+/*
  * Copyright (c) 2018 Razeware LLC
  * 
  * Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,7 +29,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -37,8 +41,27 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb2d;
     private AudioSource audioSrc;
 
+ private IEnumerator TestCoroutine()
+    {
+        Debug.Log("Started Coroutine at timestamp : " + Time.time);
+        yield return new WaitForSeconds(5);
+        Debug.Log("Finished Coroutine at timestamp : " + Time.time);
+    }
+
     [SerializeField]
     private float speedMultiplier;
+    [SerializeField]
+    public Light torch;
+
+   private IEnumerator TorchShadingCoroutine()
+    {
+        yield return new WaitForSeconds(2);
+        if (torch.range > 2)
+        {
+            torch.range -= 1;
+        }
+ StartCoroutine(TorchShadingCoroutine());
+    }
 
     void Awake()
     {
@@ -46,10 +69,23 @@ public class PlayerMovement : MonoBehaviour
         audioSrc = GetComponent<AudioSource>();
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("shtota nashchupal :) " );
+        torch.range = 8;
+    }
+
     void FixedUpdate()
     {
         rb2d.velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * speedMultiplier, 0.8f),
                                     Mathf.Lerp(0, Input.GetAxis("Vertical") * speedMultiplier, 0.8f));
+    }
+
+    private void Start()
+    {
+        torch.range = 8;
+        StartCoroutine( TorchShadingCoroutine() ); // меняем функцию на новую
+ StartCoroutine( TestCoroutine() );
     }
 
     void Update()

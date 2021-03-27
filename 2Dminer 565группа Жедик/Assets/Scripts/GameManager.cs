@@ -39,7 +39,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField]
     private AudioClip shootClip;
-
     public static GameManager instance;
 
     void Awake()
@@ -47,6 +46,7 @@ public class GameManager : MonoBehaviour
         audioSrc = GetComponent<AudioSource>();
         instance = this;
     }
+
 
     public void RestartGame(float delay)
     {
